@@ -156,7 +156,8 @@ const AssessmentIntro = ({ onStartAssessment }: AssessmentIntroProps) => {
         <div className="text-center">
           <Button 
             onClick={onStartAssessment}
-            className="assessment-button text-lg px-12 py-6"
+            size="lg"
+            className="text-lg px-12 py-6 bg-primary hover:bg-primary/90 text-primary-foreground"
           >
             Start Assessment
           </Button>
